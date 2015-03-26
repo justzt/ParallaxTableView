@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
   s.author           = { "张庭" => "justzt@gmail.com" }  
   s.source           = { :git => "https://github.com/justzt/parallaxTableView.git", :tag => s.version.to_s }  
   
-  s.platform     = :ios, '4.3'  
-  # s.ios.deployment_target = '6.0'  
-  # s.osx.deployment_target = '10.8'  
+  s.platform     = :ios, '6.0'  
+  # s.ios.deployment_target = '8.2'  
+  # s.osx.deployment_target = '10.10'  
   s.requires_arc = true  
   
   s.source_files = 'parallaxTable/*'  
