@@ -1,7 +1,7 @@
 # parallaxTableView
-![demo](http://cl.ly/image/1W3A1r0m3r1D/Screen%20Recording%202015-03-26%20at%2011.28%20%E4%B8%8A%E5%8D%88.gif)
-# 效果图
 
+# 效果图
+![demo](http://cl.ly/image/1W3A1r0m3r1D/Screen%20Recording%202015-03-26%20at%2011.28%20%E4%B8%8A%E5%8D%88.gif)
 # 如何使用
 1. 安装<br>
   下载源码，将`prallaxTable`目录加入到项目中  
