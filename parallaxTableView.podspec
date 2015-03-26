@@ -2,9 +2,7 @@ Pod::Spec.new do |s|
   s.name             = "parallaxTableView"  
   s.version          = "0.0.1"  
   s.summary          = "头部有时差视差效果的TableVie"  
-  s.description      = <<-DESC  
-                       头部有时差视差效果的TableVie
-                       DESC  
+  
   s.homepage         = "https://github.com/justzt/parallaxTableView"  
   s.screenshots      = "http://cl.ly/image/1W3A1r0m3r1D/Screen%20Recording%202015-03-26%20at%2011.28%20%E4%B8%8A%E5%8D%88.gif"  
   s.license          = 'MIT'  
