@@ -7,11 +7,11 @@
 //
 
 #import "ViewController.h"
-#import "ParallaxTableView.h"
+#import "SCParallaxTableView.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate>
 {
-    ParallaxTableView *praTbView;
+    SCParallaxTableView *praTbView;
 }
 @end
 
@@ -22,7 +22,7 @@
 
     self.view.backgroundColor = [UIColor colorWithRed:(40./225) green:(43./225) blue:(53./225) alpha:1];
     
-    praTbView = [[ParallaxTableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    praTbView = [[SCParallaxTableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     praTbView.delegate = self;
     praTbView.dataSource = self;
     praTbView.backgroundColor = [UIColor clearColor];

@@ -6,21 +6,21 @@
 //  Copyright (c) 2015年 zt. All rights reserved.
 //
 
-#import "ParallaxTableView.h"
-#import "ParallaxHeaderView.h"
+#import "SCParallaxTableView.h"
+#import "SCParallaxHeaderView.h"
 
-@interface ParallaxTableView(){
+@interface SCParallaxTableView(){
     CGFloat headerImageYOffset;
     UIImageView *headerImage;
 }
 
 @end
 
-@implementation ParallaxTableView
+@implementation SCParallaxTableView
 - (void)configHeaderViewWithImageName:(NSString*)imgName height:(CGFloat)height offset:(CGFloat)offset addToView:(UIView*)view{
     self.backgroundColor = [UIColor clearColor];
     
-    ParallaxHeaderView *headerView = [[ParallaxHeaderView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, height)];
+    SCParallaxHeaderView *headerView = [[SCParallaxHeaderView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, height)];
     self.tableHeaderView = headerView;
     
     headerImageYOffset = offset;

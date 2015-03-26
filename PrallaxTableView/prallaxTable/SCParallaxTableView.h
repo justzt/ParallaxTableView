@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ParallaxTableView : UITableView
+@interface SCParallaxTableView : UITableView
 /**
  *  配置tablview 的header，指定header的背景图片，高度，起始offset，
  *

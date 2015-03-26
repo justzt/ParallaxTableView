@@ -14,8 +14,8 @@
 		7B205D721AC3A4AB002FE5BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B205D711AC3A4AB002FE5BD /* Images.xcassets */; };
 		7B205D751AC3A4AB002FE5BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B205D731AC3A4AB002FE5BD /* LaunchScreen.xib */; };
 		7B205D811AC3A4AB002FE5BD /* PrallaxTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B205D801AC3A4AB002FE5BD /* PrallaxTableViewTests.m */; };
-		7B205D8F1AC3A4EA002FE5BD /* ParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B205D8C1AC3A4EA002FE5BD /* ParallaxHeaderView.m */; };
-		7B205D901AC3A4EA002FE5BD /* ParallaxTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B205D8E1AC3A4EA002FE5BD /* ParallaxTableView.m */; };
+		7B205D8F1AC3A4EA002FE5BD /* SCParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B205D8C1AC3A4EA002FE5BD /* SCParallaxHeaderView.m */; };
+		7B205D901AC3A4EA002FE5BD /* SCParallaxTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B205D8E1AC3A4EA002FE5BD /* SCParallaxTableView.m */; };
 		7B205D921AC3A65D002FE5BD /* img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B205D911AC3A65D002FE5BD /* img@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -43,10 +43,10 @@
 		7B205D7A1AC3A4AB002FE5BD /* PrallaxTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrallaxTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B205D7F1AC3A4AB002FE5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B205D801AC3A4AB002FE5BD /* PrallaxTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrallaxTableViewTests.m; sourceTree = "<group>"; };
-		7B205D8B1AC3A4EA002FE5BD /* ParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxHeaderView.h; sourceTree = "<group>"; };
-		7B205D8C1AC3A4EA002FE5BD /* ParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxHeaderView.m; sourceTree = "<group>"; };
-		7B205D8D1AC3A4EA002FE5BD /* ParallaxTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxTableView.h; sourceTree = "<group>"; };
-		7B205D8E1AC3A4EA002FE5BD /* ParallaxTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxTableView.m; sourceTree = "<group>"; };
+		7B205D8B1AC3A4EA002FE5BD /* SCParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCParallaxHeaderView.h; sourceTree = "<group>"; };
+		7B205D8C1AC3A4EA002FE5BD /* SCParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCParallaxHeaderView.m; sourceTree = "<group>"; };
+		7B205D8D1AC3A4EA002FE5BD /* SCParallaxTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCParallaxTableView.h; sourceTree = "<group>"; };
+		7B205D8E1AC3A4EA002FE5BD /* SCParallaxTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCParallaxTableView.m; sourceTree = "<group>"; };
 		7B205D911AC3A65D002FE5BD /* img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,10 +132,10 @@
 			isa = PBXGroup;
 			children = (
 				7B205D911AC3A65D002FE5BD /* img@2x.png */,
-				7B205D8B1AC3A4EA002FE5BD /* ParallaxHeaderView.h */,
-				7B205D8C1AC3A4EA002FE5BD /* ParallaxHeaderView.m */,
-				7B205D8D1AC3A4EA002FE5BD /* ParallaxTableView.h */,
-				7B205D8E1AC3A4EA002FE5BD /* ParallaxTableView.m */,
+				7B205D8B1AC3A4EA002FE5BD /* SCParallaxHeaderView.h */,
+				7B205D8C1AC3A4EA002FE5BD /* SCParallaxHeaderView.m */,
+				7B205D8D1AC3A4EA002FE5BD /* SCParallaxTableView.h */,
+				7B205D8E1AC3A4EA002FE5BD /* SCParallaxTableView.m */,
 			);
 			path = prallaxTable;
 			sourceTree = "<group>";
@@ -241,10 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B205D8F1AC3A4EA002FE5BD /* ParallaxHeaderView.m in Sources */,
+				7B205D8F1AC3A4EA002FE5BD /* SCParallaxHeaderView.m in Sources */,
 				7B205D6D1AC3A4AB002FE5BD /* ViewController.m in Sources */,
 				7B205D6A1AC3A4AB002FE5BD /* AppDelegate.m in Sources */,
-				7B205D901AC3A4EA002FE5BD /* ParallaxTableView.m in Sources */,
+				7B205D901AC3A4EA002FE5BD /* SCParallaxTableView.m in Sources */,
 				7B205D671AC3A4AB002FE5BD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

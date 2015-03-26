@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 zt. All rights reserved.
 //
 
-#import "ParallaxHeaderView.h"
+#import "SCParallaxHeaderView.h"
 
-@implementation ParallaxHeaderView
+@implementation SCParallaxHeaderView
 
 /*
 // Only override drawRect: if you perform custom drawing.
