@@ -13,21 +13,10 @@
 		7B205D701AC3A4AB002FE5BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B205D6E1AC3A4AB002FE5BD /* Main.storyboard */; };
 		7B205D721AC3A4AB002FE5BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B205D711AC3A4AB002FE5BD /* Images.xcassets */; };
 		7B205D751AC3A4AB002FE5BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B205D731AC3A4AB002FE5BD /* LaunchScreen.xib */; };
-		7B205D811AC3A4AB002FE5BD /* PrallaxTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B205D801AC3A4AB002FE5BD /* PrallaxTableViewTests.m */; };
 		7B205D8F1AC3A4EA002FE5BD /* SCParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B205D8C1AC3A4EA002FE5BD /* SCParallaxHeaderView.m */; };
 		7B205D901AC3A4EA002FE5BD /* SCParallaxTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B205D8E1AC3A4EA002FE5BD /* SCParallaxTableView.m */; };
 		7B205D921AC3A65D002FE5BD /* img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B205D911AC3A65D002FE5BD /* img@2x.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7B205D7B1AC3A4AB002FE5BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B205D591AC3A4AB002FE5BD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B205D601AC3A4AB002FE5BD;
-			remoteInfo = PrallaxTableView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7B205D611AC3A4AB002FE5BD /* ParallaxTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,9 +29,6 @@
 		7B205D6F1AC3A4AB002FE5BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B205D711AC3A4AB002FE5BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7B205D741AC3A4AB002FE5BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7B205D7A1AC3A4AB002FE5BD /* ParallaxTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B205D7F1AC3A4AB002FE5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B205D801AC3A4AB002FE5BD /* PrallaxTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrallaxTableViewTests.m; sourceTree = "<group>"; };
 		7B205D8B1AC3A4EA002FE5BD /* SCParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCParallaxHeaderView.h; sourceTree = "<group>"; };
 		7B205D8C1AC3A4EA002FE5BD /* SCParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCParallaxHeaderView.m; sourceTree = "<group>"; };
 		7B205D8D1AC3A4EA002FE5BD /* SCParallaxTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCParallaxTableView.h; sourceTree = "<group>"; };
@@ -58,13 +44,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B205D771AC3A4AB002FE5BD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -72,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				7B205D631AC3A4AB002FE5BD /* PrallaxTableView */,
-				7B205D7D1AC3A4AB002FE5BD /* PrallaxTableViewTests */,
 				7B205D621AC3A4AB002FE5BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				7B205D611AC3A4AB002FE5BD /* ParallaxTableView.app */,
-				7B205D7A1AC3A4AB002FE5BD /* ParallaxTableViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,23 +84,6 @@
 			children = (
 				7B205D651AC3A4AB002FE5BD /* Info.plist */,
 				7B205D661AC3A4AB002FE5BD /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7B205D7D1AC3A4AB002FE5BD /* PrallaxTableViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				7B205D801AC3A4AB002FE5BD /* PrallaxTableViewTests.m */,
-				7B205D7E1AC3A4AB002FE5BD /* Supporting Files */,
-			);
-			path = PrallaxTableViewTests;
-			sourceTree = "<group>";
-		};
-		7B205D7E1AC3A4AB002FE5BD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7B205D7F1AC3A4AB002FE5BD /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,24 +120,6 @@
 			productReference = 7B205D611AC3A4AB002FE5BD /* ParallaxTableView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7B205D791AC3A4AB002FE5BD /* ParallaxTableViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7B205D871AC3A4AB002FE5BD /* Build configuration list for PBXNativeTarget "ParallaxTableViewTests" */;
-			buildPhases = (
-				7B205D761AC3A4AB002FE5BD /* Sources */,
-				7B205D771AC3A4AB002FE5BD /* Frameworks */,
-				7B205D781AC3A4AB002FE5BD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7B205D7C1AC3A4AB002FE5BD /* PBXTargetDependency */,
-			);
-			name = ParallaxTableViewTests;
-			productName = PrallaxTableViewTests;
-			productReference = 7B205D7A1AC3A4AB002FE5BD /* ParallaxTableViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,10 +131,6 @@
 				TargetAttributes = {
 					7B205D601AC3A4AB002FE5BD = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					7B205D791AC3A4AB002FE5BD = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 7B205D601AC3A4AB002FE5BD;
 					};
 				};
 			};
@@ -210,7 +148,6 @@
 			projectRoot = "";
 			targets = (
 				7B205D601AC3A4AB002FE5BD /* ParallaxTableView */,
-				7B205D791AC3A4AB002FE5BD /* ParallaxTableViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,13 +161,6 @@
 				7B205D701AC3A4AB002FE5BD /* Main.storyboard in Resources */,
 				7B205D751AC3A4AB002FE5BD /* LaunchScreen.xib in Resources */,
 				7B205D721AC3A4AB002FE5BD /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B205D781AC3A4AB002FE5BD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,23 +179,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B205D761AC3A4AB002FE5BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B205D811AC3A4AB002FE5BD /* PrallaxTableViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7B205D7C1AC3A4AB002FE5BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7B205D601AC3A4AB002FE5BD /* ParallaxTableView */;
-			targetProxy = 7B205D7B1AC3A4AB002FE5BD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7B205D6E1AC3A4AB002FE5BD /* Main.storyboard */ = {
@@ -385,40 +299,6 @@
 			};
 			name = Release;
 		};
-		7B205D881AC3A4AB002FE5BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PrallaxTableViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ParallaxTableViewTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrallaxTableView.app/PrallaxTableView";
-			};
-			name = Debug;
-		};
-		7B205D891AC3A4AB002FE5BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = PrallaxTableViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = ParallaxTableViewTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrallaxTableView.app/PrallaxTableView";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -438,14 +318,7 @@
 				7B205D861AC3A4AB002FE5BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		7B205D871AC3A4AB002FE5BD /* Build configuration list for PBXNativeTarget "ParallaxTableViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B205D881AC3A4AB002FE5BD /* Debug */,
-				7B205D891AC3A4AB002FE5BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
