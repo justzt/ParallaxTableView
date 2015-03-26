@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.view.backgroundColor = [UIColor blueColor];
+
     self.view.backgroundColor = [UIColor colorWithRed:(40./225) green:(43./225) blue:(53./225) alpha:1];
     
     praTbView = [[ParallaxTableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
