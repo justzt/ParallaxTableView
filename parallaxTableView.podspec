@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|  
-  s.name             = "parallaxTableView"  
+  s.name             = "ParallaxTableView"  
   s.version          = "0.0.1"  
   s.summary          = "头部有时差视差效果的TableVie"  
   
